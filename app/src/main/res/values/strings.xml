@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="student_name">Темергазиев Амир</string>
+    <string name="student_group">11-503</string>
+    <string name="btn_open_second_screen">Открыть второй экран</string>
+    <string name="error_no_data">Данные не получены</string>
+</resources>
