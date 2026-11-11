@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication"
+    namespace = "com.example.myapplication2"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "com.example.myapplication2"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -44,6 +44,9 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation("androidx.navigation:navigation-compose:2.8.5")
+    implementation("io.coil-kt.coil3:coil-compose:3.0.4")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.4")
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
